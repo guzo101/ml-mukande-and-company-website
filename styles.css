@@ -634,6 +634,21 @@ p {
   font-size: 0.9rem;
 }
 
+.site-locked .primary-nav,
+.site-locked .header-actions,
+.site-locked .menu-toggle,
+.site-locked .footer-links {
+  display: none !important;
+}
+
+.is-disabled-control {
+  opacity: 1;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+  text-decoration: none !important;
+  filter: none !important;
+}
+
 .primary-nav.nav-open {
   display: flex;
   flex-direction: column;
